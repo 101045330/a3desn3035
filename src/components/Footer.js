@@ -7,7 +7,7 @@ const Footer = () => {
       
       <section id="footer_left" className="flex_col" style={{ justifyContent: 'center' }}>
         <code>
-          <s style={{ fontSize: '2em' }}>&copy;</s> &triangleright; <em>No</em> CopyFight, &triangleleft; &triangleright; <em>No</em> &triangleright; LieSense. &triangleleft;
+          <s style={{ fontSize: '2em' }}>&copy;</s> &#x25B7; <em>No</em> CopyFight, &#x25C1; &#x25B7; <em>No</em> &#x25B7; LieSense. &#x25C1;
         </code>
       </section>
 
