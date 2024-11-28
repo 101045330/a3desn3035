@@ -1,0 +1,11 @@
+.button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: var(--spacing-unit) var(--spacing-unit * 2);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button--secondary {
+    background-color: var(--secondary-color);
+}
