@@ -40,14 +40,14 @@ body {
 
 article#describe pre {
     opacity: 1;
-    background: linear-gradient(to bottom right, rgb(250, 249, 250), rgb(202, 227, 236)), url('./prototype.png') !important;
+    background: linear-gradient(to bottom right, rgb(250, 249, 250), rgb(202, 227, 236)), url('../prototype.png') !important;
     padding-bottom: 0px;
 
 }
 
 article#describe {
     opacity: 1;
-    background: url('../../prototype.png') no-repeat center !important;
+    background: url('../prototype.png') no-repeat center !important;
     background-position: 20px -20px 0px -20px;
     background-position: top;
     padding-bottom: 0px;

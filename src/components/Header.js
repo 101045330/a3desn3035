@@ -18,7 +18,7 @@ const Header = () => {
             <header class="flex_row" >
 
                 <section id="header_left">
-                    <img src="graphics/photo9.jpg" alt="Logo Placeholder" height="150" width="200" />
+                    <img src="./assets/photo9.jpg" alt="Logo Placeholder" height="150" width="200" />
                 </section>
 
                 <section class="flex_col" >

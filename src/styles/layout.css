@@ -1,0 +1,22 @@
+.flex_row{
+    display:flex; 
+    flex-direction:row;
+}
+.flex_col{
+    display:flex; 
+    flex-direction:column;  
+
+}
+.justify_content_fStart{
+    justify-content: flex-start;
+}
+
+.justify_content_fEnd{
+    justify-content: flex-end;
+}
+
+.justify_content_fCenter{
+    justify-content: center;
+}
+
+header,footer, main{padding:10px; margin-top:50px;}

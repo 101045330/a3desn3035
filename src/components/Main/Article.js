@@ -4,7 +4,7 @@ const Article = () => {
   return (
 
     <article id="describe" style={{ justifyContent: 'center', padding: '30px' }}>
-      <h2> Assignment 1: Simple HTML/CSS website via GitHub Pages</h2>
+      <h2> Article Title 1 </h2>
 
       <blockquote> This page demonstrate solution to the following assignment assigned to FrontEnd Design Students
         in the year Sep 2024. </blockquote>
