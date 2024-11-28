@@ -1,6 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+//importing all css files
+import './styles/accessibility.css';
+//import './styles/all.css'; //requires prototype.png
+//import './styles/chart.css';
+//import './styles/default.css';
+//import './styles/formMediaQuery.css';
+//import './styles/forms.css';
+//import './styles/hint.css';
+//import './styles/icons.css';
+//import './styles/mediaQuery2.css';
+//import './styles/preloader.css';
+//import './styles/typography.css';
+
+//importing all js files
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
