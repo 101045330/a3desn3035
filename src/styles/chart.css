@@ -1,0 +1,16 @@
+        /*CHART*/
+        /*how much course is completed chart inside <header>*/
+        .progress-circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background:
+                conic-gradient(#4caf50 0% 25%,
+                    #dda2d8 25% 100%);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: #6d0f84;
+        }

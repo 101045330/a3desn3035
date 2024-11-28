@@ -1,0 +1,116 @@
+/* Minimum width */
+@media (min-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+    header, footer {
+      padding: 20px;
+    }
+    main {
+      margin: 20px;
+    }
+    aside {
+      display: block;
+    }
+    nav {
+      /*background-color: #333;*/
+    }
+    ul, ol {
+      padding-left: 40px;
+    }
+    form {
+      max-width: 600px;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    h1, h2, h3 {
+      margin-top: 20px;
+    }
+  }
+  
+  /* Maximum width */
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    header, footer {
+      padding: 10px;
+    }
+    main {
+      margin: 10px;
+    }
+    aside {
+      display: none;
+    }
+    nav {
+      /**background-color: #444;**/
+    }
+    ul, ol {
+      padding-left: 20px;
+    }
+    form {
+      max-width: 100%;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 5px;
+    }
+    p {
+      line-height: 1.4;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+    h1, h2, h3 {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Orientation: Landscape */
+  @media (orientation: landscape) {
+    body {
+      background-color: #f0f0f0;
+    }
+    header, footer {
+      background-color: #ccc;
+    }
+    main {
+      padding: 20px;
+    }
+    aside {
+      float: left;
+      width: 25%;
+    }
+    nav {
+      float: right;
+      width: 75%;
+    }
+  }
+  
+  /* Orientation: Portrait */
+  @media (orientation: portrait) {
+    body {
+      background-color: #fff;
+    }
+    header, footer {
+      background-color: #eee;
+    }
+    main {
+      padding: 10px;
+    }
+    aside {
+      width: 100%;
+    }
+    nav {
+      width: 100%;
+    }
+  }
+  

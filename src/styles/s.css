@@ -1,0 +1,9 @@
+/*
+const mediaQuery = window.matchMedia('(max-width: 600px)');
+
+if (mediaQuery.matches) {
+    console.log('Viewport is 600px or less');
+} else {
+    console.log('Viewport is greater than 600px');
+}
+*/

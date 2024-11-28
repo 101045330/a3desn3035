@@ -1,0 +1,19 @@
+/** class hint default design **/
+a.hint {
+    position: relative;
+    display: inline-block;
+    /*margin-top: 20px;*/
+    z-index: 2;
+}
+
+/** on hover, show value of title arrtibute of anchor tag **/
+a[title]:hover:after {
+    content: attr(title);
+    position: absolute;
+    /*top: -100%;*/
+    top: -25%;
+    left: 0;
+    z-index: 1;
+    font-size: .6em;
+    padding-left: 2px;
+}
