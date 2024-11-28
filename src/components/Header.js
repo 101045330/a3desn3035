@@ -1,11 +1,11 @@
 import React from 'react'
 import Nav from './Header/Nav'
-import { Helmet } from 'react-helmet';
+//import { Helmet } from 'react-helmet';
 const Header = () => {
     return (
 
-        <>
-            <Helmet>
+        
+            /*<Helmet>
                 <meta charSet="utf-8" />
                 <title>DESN 3035 - </title>
                 <meta name="description" content="must change pagewise" />
@@ -13,35 +13,33 @@ const Header = () => {
                 <meta property="og:description" content="must change pagewise" />
                 <meta property="og:image" content="path/to/image.jpg" />
             </Helmet>
+            */
 
-            <header class="flex_row" style="width:auto;">
+            <header class="flex_row" >
 
                 <section id="header_left">
-                    <img src="graphics/photo9.jpg" alt="Logo Placeholder" height="150" width="200" style="border-radius:80px; "/>
+                    <img src="graphics/photo9.jpg" alt="Logo Placeholder" height="150" width="200" />
                 </section>
 
-                <section class="flex_col" style="margin-left:20px;">
+                <section class="flex_col" >
 
                     <div class="progress-circle">25%</div>
                     <em>Course Completion : </em>
                 </section>
 
-                <section id="header_right" class="flex_col" style="padding-left: 2em;">
-                    <h1 style="text-shadow: 5px 12px rgb(211, 187, 233) ; "> Lab Archive </h1>
+                <section id="header_right" class="flex_col" >
+                    <h1 > Lab Archive </h1>
                     <h3>
                         Lab class information Zone !
                     </h3>
                 </section>
-
                 <Nav/>
-
             </header>
 
 
 
 
 
-        </>
     )
 }
 
