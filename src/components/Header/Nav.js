@@ -1,40 +1,53 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
 
     <nav id="top_navigation" className="flex_row" aria-label="Main Navigation" style={{ width: 'auto' }}>
-    <ol className="flex_row justify_content_fCenter">
-      <li style={{ background: 'none', backgroundColor: 'rgb(155, 116, 162)', color: 'bisque' }}>
-        <a href="{{#}}" style={{ color: 'bisque' }}> &#8594; Home </a>
-      </li>
-      <li>
-        <a 
-          href="index.html" 
-          className="tooltip" 
-          title="404 Error" 
-          style={{ pointerEvents: 'none', textDecoration: 'line-through' }}
-        >
-          &#8594; Lab 1
-        </a>
-      </li>
-      <li>
-        <a 
-          href="lab2.html" 
-          className="tooltip" 
-          title="Lab 02" 
-          style={{ paddingTop: '20px' }}
-        >
-          &#8594; Lab 2
-        </a>
-      </li>
-      <li>
-        <a href="lab3.html" className="tooltip" title="Lab 03">
-        &#8594; Lab 3
-        </a>
-      </li>
-    </ol>
-  </nav>
+
+
+      <ul>
+        <li style={{ background: 'none', backgroundColor: 'rgb(155, 116, 162)', color: 'bisque' }}>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/assignment1" className="tooltip"
+            title="Assignment 1"
+            style={{ paddingTop: '20px' }}>
+            Assignment 1
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/assignment2" className="tooltip"
+            title="Assignment 2"
+            style={{ paddingTop: '20px' }}>
+            Assignment 2
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/assignment3" className="tooltip"
+            title="Assignment 3"
+            style={{ paddingTop: '20px' }}>
+            Assignment 3
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/labs" className="tooltip"
+            title="Labs"
+            style={{ paddingTop: '20px' }}>
+            Labs
+          </Link>
+        </li>
+
+
+      </ul>
+
+
+    </nav>
 
   )
 }

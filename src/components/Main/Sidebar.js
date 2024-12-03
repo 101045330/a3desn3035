@@ -51,7 +51,7 @@ const FormComponent = () => {
   // Dynamically load external scripts like TinyMCE
   useEffect(() => {
     loadScript(
-      'https://cdn.tiny.cloud/1/gp3ikfeo5tjqunizkti3rh8atmka6iq73ayzk0jwnwcdwvn7/tinymce/7/tinymce.min.js',
+      'https://cdn.tiny.cloud/1/gp3ikfeo5tjqunizkti3rh8atmka6iq73ayzk0jwnwcdwvn7/tinymce/7/tinymce.min1.js',
       () => {
         window.tinymce.init({
           selector: 'textarea',

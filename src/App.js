@@ -1,8 +1,22 @@
-//import logo from './logo.svg';
-//import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+//import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import 'react-tabs/style/react-tabs.css';
+
+
 import Header from './components/Header';
+
 import Main from './components/Main';
+//import Home from './components/Home';
+import Assignment1 from './components/Main/Assignment1';
+import Assignment2 from './components/Main/Assignment2';
+import Assignment3 from './components/Main/Assignment3';
+import Labs from './components/Main/Labs';
+
 import Footer from './components/Footer';
+
 
 // OK //
 //import './utils/jquery-3.7.1.min.js';
@@ -53,14 +67,59 @@ import './styles/all.css';
 // </script>
 
 
-function App() {
+// Import CSS files
+
+import './styles/default.css';
+import './styles/layout.css';
+import './styles/accessibility.css';
+import './styles/typography.css';
+import './styles/icons.css';
+import './styles/forms.css';
+import './styles/all.css';
+/**/
+
+// Import JavaScript files
+
+/*
+import $ from 'jquery';
+import './utils/preloader.js';
+import './utils/mediaQueryForAllScreen.js';
+*/
+
+const App = () => {
+
+  // Custom script for media queries
+ /* React.useEffect(() => {
+    const applyMediaQueries = () => {
+      // Your media query logic here
+    };
+
+    window.addEventListener('load', applyMediaQueries);
+    window.addEventListener('resize', applyMediaQueries);
+
+    return () => {
+      window.removeEventListener('load', applyMediaQueries);
+      window.removeEventListener('resize', applyMediaQueries);
+    };
+  }, []);
+*/
   return (
-    <div className="App">
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <Router>
+      <div className="app-container">
+        <Header />
+        <Main>
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/assignment1" element={<Assignment1 />} />
+            <Route path="/assignment2" element={<Assignment2 />} />
+            <Route path="/assignment3" element={<Assignment3 />} />
+            <Route path="/labs" element={<Labs />} />
+          </Routes>
+        </Main>
+        <Footer />
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

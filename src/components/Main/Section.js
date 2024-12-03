@@ -1,10 +1,10 @@
 import React from 'react'
-import Article from './Article'
+import Assignment from './Assignment'
 
 const Section = () => {
   return (
     <section>
-        <Article />
+        <Assignment />
     </section>
   )
 }

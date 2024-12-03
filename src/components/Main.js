@@ -4,7 +4,7 @@ import Sidebar from './Main/Sidebar'
 
 const Main = () => {
   return (
-    <main class="flex_row" style={{ justifyContent:'space-between', width:'auto' }}>
+    <main className="flex_row" style={{ justifyContent:'space-between', width:'auto' }}>
          
         <Section />
         <Sidebar />
