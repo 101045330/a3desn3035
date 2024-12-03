@@ -9,8 +9,8 @@ import 'react-tabs/style/react-tabs.css';
 const Assignment1 = ({ title }) => (
 
     <section>
-        <h2>Problem</h2>
-        <p>Describe the problem here.</p>
+        <h2>Problem1</h2>
+        <p>Describe the problem here.1</p>
     </section>
 
 );
