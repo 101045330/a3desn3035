@@ -5,14 +5,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 //import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import 'react-tabs/style/react-tabs.css';
 
-
 import Header from './components/Header';
 
 import Main from './components/Main';
-//import Home from './components/Home';
-import Assignment1 from './components/Main/Assignment1';
-import Assignment2 from './components/Main/Assignment2';
-import Assignment3 from './components/Main/Assignment3';
+import Assignment from './components/Main/Assignment';
 import Labs from './components/Main/Labs';
 
 import Footer from './components/Footer';
@@ -108,14 +104,7 @@ const App = () => {
       <div className="app-container">
         <Header />
         <Main>
-          <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/assignment1" element={<Assignment1 />} />
-            <Route path="/assignment2" element={<Assignment2 />} />
-            <Route path="/assignment3" element={<Assignment3 />} />
-            <Route path="/labs" element={<Labs />} />
-          </Routes>
-        </Main>
+        </Main> 
         <Footer />
       </div>
     </Router>

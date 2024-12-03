@@ -1,9 +1,7 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import 'react-tabs/style/react-tabs.css';
-import Assignment1 from "./Assignment1";
-import Assignment2 from "./Assignment2";
-import Assignment3 from "./Assignment3";
+
 const Assignment = ({ title }) => (
     <section>
 
@@ -16,16 +14,27 @@ const Assignment = ({ title }) => (
             </TabList>
 
             <TabPanel>
-              <Assignment1 />
+
+
+                <h2>Problem1</h2>
+                <p>Describe the problem here.1</p>
 
             </TabPanel>
 
             <TabPanel>
-                <Assignment2 />
+
+
+                <h2>Requirement1</h2>
+                <p>Describe the Requirement here.1</p>
+
             </TabPanel>
 
             <TabPanel>
-                <Assignment3 />
+
+
+                <h2>Solutions1</h2>
+                <p>Describe the Solutions here.1</p>
+
             </TabPanel>
 
         </Tabs>
