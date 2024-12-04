@@ -1,10 +1,1 @@
-@media only screen and (max-width: 767px){
-	 .progress_circle{ display:flex; flex-direction:column; align-items:center; }
-	 header{ align-items:flex_start; }
-	 nav ul{ flex-direction:column; padding-bottom:20px; }
-	 nav ul li{ border-radius:20px !important; flex-direction:column; align-items:flex-start; }
-	 main{ flex-wrap:wrap; }
-	 main article{ flex-direction:flex_column; }
-	 main section#mapout{ flex-direction:column; }
- }
- 
+
