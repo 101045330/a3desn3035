@@ -8,10 +8,10 @@ This repository contains the files and code for Assignment 3. The purpose of thi
 
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Features](#features)
-4. [Contributing](#contributing)
-5. [License](#license)
-6. [Contact](#contact)
+
+3. [Contributing](#contributing)
+4. [License](#license)
+5. [Contact](#contact)
 
 ## Installation
 
