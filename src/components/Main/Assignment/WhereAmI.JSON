@@ -1,0 +1,35 @@
+
+{
+
+    "FileFolderHistoryAndGeography": {
+
+        "Files": [ 
+          "averageRequirementRatio",
+          "usabilityAmongOtherFiles",
+          "haveBeenReferencedForHowManyYears"
+        ], 
+
+        "Folders": [  
+          "chrome version ??",
+          "edge version ??",
+          "firefox version ??",
+          "safari version ??"
+        ], 
+
+        "History": [  
+            "ipv06: 00-01-00-01-2C-A5-25-07-FC-45-96-3D-AE-54",
+            "ipv60: 00-01-00-01-2C-A5-25-07-FC-45-96-3D-AE-54",
+            "..."
+          ], 
+
+          "Geography": [ 
+            "OpenWeb",
+            "OpenAI",
+            "OpenVR",
+            "OpenWorld"
+          ] 
+
+      }
+    
+}
+ 
