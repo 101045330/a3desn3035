@@ -2,7 +2,7 @@
   "name": "a3desn3035",
   "version": "0.1.0",
   "private": true,
- 
+ "homepage": "https://101045330.github.io/a3desn3035/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
