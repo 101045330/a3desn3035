@@ -1,0 +1,40 @@
+
+/* Mobile styles (up to 600px) */
+@media (max-width: 600px) {
+    header, nav, main, aside, footer {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* Tablet styles (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header, footer {
+        display: block;
+        width: 100%;
+    }
+    nav, aside {
+        display: inline-block;
+        width: 25%;
+    }
+    main {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+/* Widescreen styles (1025px and above) */
+@media (min-width: 1025px) {
+    header, footer {
+        display: block;
+        width: 100%;
+    }
+    nav, aside {
+        display: inline-block;
+        width: 20%;
+    }
+    main {
+        display: inline-block;
+        width: 60%;
+    }
+}

@@ -1,0 +1,41 @@
+/* Default styles for all devices */
+form, fieldset, legend, input, textarea, label, select, button {
+    font-family: Arial, sans-serif;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styles for mobile devices (max-width: 600px) */
+  @media only screen and (max-width: 600px) {
+    form, fieldset, legend, input, textarea, label, select, button {
+      width: 100%;
+      font-size: 14px;
+    }
+  }
+  
+  /* Styles for tablets (min-width: 601px) and (max-width: 768px) */
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    form, fieldset, legend, input, textarea, label, select, button {
+      width: 90%;
+      font-size: 16px;
+    }
+  }
+  
+  /* Styles for laptops (min-width: 769px) and (max-width: 1024px) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    form, fieldset, legend, input, textarea, label, select, button {
+      width: 80%;
+      font-size: 18px;
+    }
+  }
+  
+  /* Styles for desktops (min-width: 1025px) */
+  @media only screen and (min-width: 1025px) {
+    form, fieldset, legend, input, textarea, label, select, button {
+      width: 70%;
+      font-size: 20px;
+    }
+ 
+  }
+  
