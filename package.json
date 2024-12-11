@@ -2,11 +2,12 @@
   "name": "a3desn3035",
   "version": "0.1.0",
   "private": true,
- "homepage": "https://101045330.github.io/a3desn3035/",
+  "homepage": "https://101045330.github.io/a3desn3035/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.49",
     "react": "^18.3.1",
     "react-accessible-accordion": "^5.0.0",
